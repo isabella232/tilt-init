@@ -1,48 +1,38 @@
 # Welcome to Tilt
 
-_What is it?_
-
-A tool you install on your laptop, plus some code in config files in your
-project.
-
-_What does it do?_
-
-It watches your files for edits, automatically builds your container images and
-applies any changes to bring your environment up-to-date in real-time. And makes
-your builds way faster.
-
-_What else?_
-
-It combines all of the information you need to debug efficiently into one clean
-interface so you never have to play 20 questions with `kubectl` ever again.
-
-_Sorta like..._
+**Tilt gives you a powerful microservice dev environment that seamlessly bridges the gap between local and Kubernetes.**
 
 Think `docker build && kubectl apply` or `docker-compose up`.
 
----
+## What does it do?
+
+- Watch your files for edits
+
+- Applies changes automatically & builds your container images in real-time
+
+- Makes your builds way faster
+
+- Combines all of the debug information into one clean, efficient interface
+
+- No guessing games with kubectl ever again
+
+The engineer who sent you to this page has already configured Tilt for your project. You can get started right now!
 
 ## Installing
 
-The `tilt` binary must be installed and accessible. That’s pretty easy:
+The quick install downloads the Tilt command-line tool.
 
-<pre style="user-select:all"><code>curl -sSL https://raw.githubusercontent.com/windmilleng/tilt/master/scripts/install.sh | bash</code></pre>
+<pre style="user-select:all"><code>curl -fsSL https://raw.githubusercontent.com/windmilleng/tilt/master/scripts/install.sh | bash</code></pre>
 
-[ [Want more install options?](https://docs.tilt.dev/install) ]
-
----
+[ [More options in the docs](https://docs.tilt.dev/install) ]
 
 ## Getting Started
 
-If you’re on this page, it’s because someone has already set up your application to run with Tilt.
-
-Now all you have to do is:
+All you need to do is go to any project with a `Tiltfile` and `tilt up`:
 
 <pre style="user-select:all"><code>tilt up</code></pre>
 
-[ [Want to read more about how it works?](https://docs.tilt.dev) ]
-
----
+[ [To learn more about how Tilt works check out our friendly docs.](https://docs.tilt.dev) ]
 
 ## Hack, Observe, Repeat
 
@@ -60,11 +50,11 @@ Now that you have run `tilt up`, you can:
 
 ![Spot Errors](img/tilt-feature-3.png)
 
-### [Watch the Video](https://www.youtube.com/watch?v=oSljj0zHd7U)
+### [Watch the Demo](https://www.youtube.com/watch?v=oSljj0zHd7U)
 
-[![Watch the Video](img/videothumb.png)](https://www.youtube.com/watch?v=oSljj0zHd7U)
+[![Watch the Demo](img/videothumb.png)](https://www.youtube.com/watch?v=oSljj0zHd7U)
 
----
+## Back to getting things done
 
 This README is for application engineers who have been sent here after Tilt was
 set up in your project.
@@ -76,7 +66,7 @@ Don’t have your project configured yet?
 To add project-specific instructions for your other contributors,
 just fork this repo and edit this guide!
 
----
+### License
 
 Licensed under [the Apache License, Version 2.0](LICENSE)
 
